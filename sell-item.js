@@ -1,6 +1,4 @@
-const template = document.createElement("template");
-template.innerHTML = /*html*/ `
-<style>
+const styles = /*css*/ `
 #container {
   max-width: 300px;
 
@@ -67,9 +65,14 @@ template.innerHTML = /*html*/ `
       }
     .negative {
         color:red;
-        margin-left: 98px;
+        margin-left: 90px;
       }
-</style>
+`
+const sheet = new CSSStyleSheet();
+sheet.replaceSync(styles);
+
+const template = document.createElement("template");
+template.innerHTML = /*html*/ `
 <div id="container">
 <div id="card">
     <div class="image">
@@ -93,6 +96,7 @@ class SellItem extends HTMLElement {
         super();
         this.attachShadow({ "mode": "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
+        this.shadowRoot.adoptedStyleSheets = [sheet]
     }
 
     static get observedAttributes() {
