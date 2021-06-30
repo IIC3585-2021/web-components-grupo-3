@@ -1,4 +1,4 @@
-# Svelte App Grupo 3
+# Web Components Grupo 3
 
 ## Integrantes
 
@@ -6,7 +6,7 @@
 * Cristóbal Muñoz
 * Denisse Ogaz
 
-## Ejecutar el código
+## Ejecutar el Todo List (Lit-Element)
 
 * Instalar dependencias y correr la app: 
 
@@ -14,7 +14,7 @@
     npm install
     npm run dev
     ```
-* Ir a [localhost:5000](http://localhost:5000) 🎉
+* Ir a [localhost:8080](http://localhost:8080) 🎉
 
 ## Presentación
 
@@ -22,5 +22,4 @@
 
 ## Referencias
 
-- https://www.npmjs.com/package/svelte-navigator#installation
-- https://sweetalert2.github.io/
+- https://vaadin.com/learn/tutorials/lit-element 
