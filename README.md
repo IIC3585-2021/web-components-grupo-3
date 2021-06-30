@@ -1,6 +1,25 @@
-# LitElement tutorial starter
+# Web Components Grupo 3
 
-This is the starting point for a tutorial series teaching you how to build an application with LitElement, Redux, Webpack, and Vaadin router.
+## Integrantes
 
-You can find the text and video tutorials here:
-https://vaadin.com/tutorials/lit-element
+* Macarena Concha
+* Cristóbal Muñoz
+* Denisse Ogaz
+
+## Ejecutar el Todo List (Lit-Element)
+
+* Instalar dependencias y correr la app: 
+
+    ```
+    npm install
+    npm run dev
+    ```
+* Ir a [localhost:8080](http://localhost:8080) 🎉
+
+## Presentación
+
+- Puedes encontrar nuestra presentación [aquí](https://docs.google.com/presentation/d/15PsEs3pK0Ml-LksFR0IHoNtQlbz1p5vmqqEWfiPKyMI/edit?usp=sharing)
+
+## Referencias
+
+- https://vaadin.com/learn/tutorials/lit-element 
