@@ -1,26 +1,6 @@
-# Svelte App Grupo 3
+# LitElement tutorial starter
 
-## Integrantes
+This is the starting point for a tutorial series teaching you how to build an application with LitElement, Redux, Webpack, and Vaadin router.
 
-* Macarena Concha
-* Cristóbal Muñoz
-* Denisse Ogaz
-
-## Ejecutar el código
-
-* Instalar dependencias y correr la app: 
-
-    ```
-    npm install
-    npm run dev
-    ```
-* Ir a [localhost:5000](http://localhost:5000) 🎉
-
-## Presentación
-
-- Puedes encontrar nuestra presentación [aquí](https://docs.google.com/presentation/d/15PsEs3pK0Ml-LksFR0IHoNtQlbz1p5vmqqEWfiPKyMI/edit?usp=sharing)
-
-## Referencias
-
-- https://www.npmjs.com/package/svelte-navigator#installation
-- https://sweetalert2.github.io/
+You can find the text and video tutorials here:
+https://vaadin.com/tutorials/lit-element
