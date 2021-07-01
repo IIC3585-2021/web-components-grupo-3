@@ -5,7 +5,7 @@ import '@material/mwc-textfield';
 
 import { LitElement, html } from 'lit-element'; 
 
-class TodoList extends LitElement { 
+class TodoListLit extends LitElement { 
   static get properties() { 
     return {
       item1: { type: String },
@@ -141,4 +141,4 @@ class TodoList extends LitElement {
   }
 }
 
-customElements.define('todo-list', TodoList);
+customElements.define('todo-list-lit', TodoListLit);

@@ -6,7 +6,7 @@
 * Cristóbal Muñoz
 * Denisse Ogaz
 
-## Ejecutar el Todo List (Lit-Element)
+## Ejecutar el código
 
 * Instalar dependencias y correr la app: 
 
