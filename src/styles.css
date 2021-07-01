@@ -9,7 +9,10 @@ html {
   --success-color: #f0f8f1;
   --warning-color: #fbeeec;
   --light-background: #f4f5f7;
+<<<<<<< HEAD
   --spacing: 16px;
+=======
+>>>>>>> 4fb43d4791faad525388a9dc95117f0badb60be8
   margin: 0;
   padding: 0;
 }
@@ -25,14 +28,18 @@ body {
   line-height: 1.5rem;
 }
 
+<<<<<<< HEAD
 [hidden] {
   display: none;
 }
 
+=======
+>>>>>>> 4fb43d4791faad525388a9dc95117f0badb60be8
 a {
   color: var(--dark-color);
 }
 
+<<<<<<< HEAD
 a:visited,
 a:active {
   color: var(--shade-color);
@@ -52,3 +59,23 @@ header {
   background: var(--dark-color);
   color: var(--base-color);
 }
+=======
+header {
+  background: var(--dark-color);
+  color: var(--base-color);
+  padding: 10px;
+}
+
+h1{
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  margin: 10px 100px;
+  padding: 10px;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+>>>>>>> 4fb43d4791faad525388a9dc95117f0badb60be8
