@@ -1,4 +1,4 @@
 import './styles.css';
-import './sell-item.js';
-import './sell-item-LI.js';
-import './views/todo-list.js';
+import './components/sell-item.js';
+import './components/sell-item-lit.js';
+import './components/todo-list-lit.js';

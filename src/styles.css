@@ -24,30 +24,25 @@ body {
   line-height: 1.5rem;
 }
 
-[hidden] {
-  display: none;
-}
-
 a {
   color: var(--dark-color);
-}
-
-a:visited,
-a:active {
-  color: var(--shade-color);
-}
-
-header,
-main,
-nav {
-  padding: var(--spacing);
-}
-
-nav {
-  height: 3em;
 }
 
 header {
   background: var(--dark-color);
   color: var(--base-color);
+  padding: 10px;
+}
+
+h1{
+  font-weight: 400;
+}
+
+main {
+  margin: 10px 100px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
 }
