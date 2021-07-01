@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -17,22 +18,28 @@
     <meta name="mobile-web-app-title" content="TutorialApp" />
 
     <script>
-      if (!window.customElements) {
-        document.write('<!--');
-      }
+        if (!window.customElements) {
+            document.write('<!--');
+        }
     </script>
     <script src="./vendor/custom-elements-es5-adapter.js"></script>
     <!-- ! DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKER -->
-  </head>
+</head>
 
-  <body>
-    <header><h1>Todo app</h1></header>
+<body>
+    <header>
+        <h1>Todo app</h1>
+    </header>
 
     <main>
-      <todo-list item1="WC Sell Item" item2="Lit-Element Sell Item" item3="WC Todo List" promt="Agregar Paso" title="Tarea 7 - IIC3585"></todo-list>
-      <todo-list></todo-list>
-    
+        <todo-list item1="WC Sell Item" item2="Lit-Element Sell Item" item3="WC Todo List" promt="Agregar Paso" title="Tarea 7 - IIC3585"></todo-list>
+        <todo-list></todo-list>
+        <div style="display: flex;">
+            <sell-item avatar="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSafs5NZuWI9ad5litaCZutQSJhkToqW5mbg3VIIk6NWFQAJCMIytIWrZfwjnm3lyGehZU&usqp=CAU" title="Luis Fonsi" price="100 USD" sale="80 USD" discount="20%" rating="10.0"></sell-item>
+            <sell-item-li avatar="https://upload.wikimedia.org/wikipedia/commons/d/da/Justin_Bieber_in_2015.jpg" title="Justin Bieber" price="3 USD" sale="1 USD" discount="70%" rating="1.0"></sell-item-li>
+        </div>
     </main>
     <script src="./vendor/webcomponents-loader.js"></script>
-  </body>
+</body>
+
 </html>
