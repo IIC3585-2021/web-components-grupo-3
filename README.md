@@ -18,7 +18,7 @@
 
 ## Presentación
 
-- Puedes encontrar nuestra presentación [aquí](https://docs.google.com/presentation/d/15PsEs3pK0Ml-LksFR0IHoNtQlbz1p5vmqqEWfiPKyMI/edit?usp=sharing)
+- Puedes encontrar nuestra presentación [aquí](https://docs.google.com/presentation/d/1_n6aYjLzMRAZoDaLoZXRMtd87QbHprHaaF7zajl8aTU/edit?usp=sharing)
 
 ## Referencias
 
